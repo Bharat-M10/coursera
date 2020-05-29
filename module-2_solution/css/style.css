@@ -1,0 +1,74 @@
+
+.heading{
+  text-align: center;
+}
+
+
+.c-1,.c-2,.c-3{
+  border: 1px solid black;
+  margin-left: 10px;
+
+  background-color: pink;
+  float: left;
+  width:32%;
+
+}
+.content-1,.content-2,.content-3{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+h2{
+  margin-top: 0px;
+  display:inline;
+  border:2px solid black;
+  color: white;
+  background: blue;
+}
+.h-1,.h-2,.h-3{
+  text-align: right;
+}
+
+
+
+@media (min-width:768px) and (max-width:991px) {
+
+
+.container > .c-1,.c-2{
+  float: left;
+
+  width: 48%;
+}
+
+.c-3{
+  width: 97.3%;
+  margin-top: 10px;
+}
+
+}
+
+@media (max-width:767px) {
+
+.container > .c-1,.c-2,.c-3{
+  float: none;
+  width: 100%;
+  margin: 0px;
+}
+.c-2,.c-3{
+  margin-top: 10px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
